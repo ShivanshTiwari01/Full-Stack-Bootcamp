@@ -1,5 +1,5 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 50px 50px 0 50px;
   background-color: #faf9f6;
   display: flex;
@@ -19,3 +19,43 @@ footer {
   color: midnightblue;
 }
 
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
+.card {
+  width: 45%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.creative {
+  color: midnightblue;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    display: none;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}

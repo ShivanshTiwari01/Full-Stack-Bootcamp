@@ -1,4 +1,6 @@
 import React from 'react';
+import Avatar from './Avatar';
+import Detail from './Detail';
 
 function Card(props: {
   name: string;
@@ -11,12 +13,12 @@ function Card(props: {
     <div className="card">
       <div className="top">
         <h2 className="name">{props.name}</h2>
-        <img className="circle-img" src={props.image} alt="Ronaldo" />
+        <Avatar image={props.image} />
       </div>
       <div className="bottom">
-        <p className="info">{props.position}</p>
-        <p className="info">{props.club}</p>
-        <p className="info">{props.country}</p>
+        <Detail detailInfo={props.position} />
+        <Detail detailInfo={props.club} />
+        <Detail detailInfo={props.country} />
         <p>Country: Portugal</p>
       </div>
     </div>

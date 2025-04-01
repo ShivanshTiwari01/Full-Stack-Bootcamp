@@ -13,6 +13,20 @@ function App() {
         club="Al Nassr"
         country="Portugal"
       />
+      <Card
+        name="Messi"
+        image="https://upload.wikimedia.org/wikipedia/commons/0/0c/Lionel_Messi_20180626.jpg"
+        position="Forward"
+        club="Inter Miami"
+        country="Argentina"
+      />
+      <Card
+        name="Neymar"
+        image="https://upload.wikimedia.org/wikipedia/commons/0/0f/Neymar_2018.jpg"
+        position="Forward"
+        club="Al Hilal"
+        country="Brazil"
+      />
     </div>
   );
 }
